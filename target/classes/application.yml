@@ -1,3 +1,0 @@
-server:
-  port:4444
-  servlet:context-Path:/te
