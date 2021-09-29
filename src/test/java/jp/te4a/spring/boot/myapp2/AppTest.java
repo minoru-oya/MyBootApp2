@@ -19,4 +19,14 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    @Test
+	public void test() {
+    	Controller controller = new Controller();
+		String expected = "Taro desu!";
+		String actual = controller.taro();
+		
+		assertEquals(expected,actual);
+	}
+    
 }
